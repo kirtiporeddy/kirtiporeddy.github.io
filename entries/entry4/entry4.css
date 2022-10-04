@@ -1,0 +1,15 @@
+h1 {
+
+  font-size: 70px;
+  font-family: "helvetica";
+  text-align: center;
+}
+
+head {
+  background-color: yellow;
+}
+
+.wrapper {
+  background-color: #D8DF20;
+  color: purple;
+}

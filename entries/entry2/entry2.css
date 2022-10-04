@@ -1,0 +1,66 @@
+@font-face {
+    font-family: '5yearsoldfont';
+    src: url('fonts/5yearsoldfont.woff2') format('woff2'),
+        url('fonts/5yearsoldfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.wrapper {
+  background-color: blue;
+  color: lightgreen;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "helvetica";
+
+}
+
+h1 {
+
+  font-size: 70px;
+}
+
+
+.main {
+  background-color: #F6E726;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
+
+.subheading {
+  font-family: "5yearsoldfont";
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+
+.entries {
+  font-family: "courier";
+  font-size: 25px;
+}
