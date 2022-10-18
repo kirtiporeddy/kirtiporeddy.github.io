@@ -12,6 +12,7 @@ head {
 .wrapper {
   background-color: #D8DF20;
   color: purple;
+  padding-top: 100px;
 }
 
 .images {
