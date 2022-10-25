@@ -1,0 +1,12 @@
+body 
+{
+	background-color: black;
+}
+
+#yinyang {
+	height : 200px;
+}
+
+circle.cls-1 {
+	fill: blue;
+}
