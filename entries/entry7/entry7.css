@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'helvetica';
+}
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+p {
+  font-size: 0.8em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+.header {
+  width: 100%;
+  padding:20px 0;
+  text-align: center;
+  background: white;
+  color: red;
+}
+.btn-bgstroke {
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px; 
+}
+.btn-bgstroke:hover {
+  background-color: white;
+  color: #33cccc;
+}
+
+#cd
+ {
+  height: 30px;
+ }
+
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes cdSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: default;
+  }
+}
+
+h1
+{
+  color: ;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+#cd {
+  animation: cdSpin 5s ease-out infinite;
+  height:500px;
+ align-self: center;
+ align-content: center;
+
+}
+
+#cd path, #cd circle {
+  animation: colorSwap 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
+}
+
+#cd:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+/*basic animation, spins once in one second*/
+div.item {
+  animation: spinType 1s;
+}
+
+
+body 
+{ 
+background-color: #9DC4DB; }
+
+.row {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+.row:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
