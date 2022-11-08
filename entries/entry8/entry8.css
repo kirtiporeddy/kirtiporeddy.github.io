@@ -1,0 +1,56 @@
+body
+{
+background-color: black;
+}
+
+h1
+{
+	color: white;
+	text-align: center;
+	font-family: helvetica;
+
+}
+
+pre 
+{
+	color: lavender;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 80px;
+
+}
+
+body
+{background-image: url(file:///Users/kirti/Documents/GitHub/kirtiporeddy.github.io/entries/entry8/images/chel.gif);
+}
+
+.next 
+{background-color: lavender;}
+.relative {
+ 
+  position: relative;
+}
+
+.fixed {
+
+  position: sticky;
+  top: 9;
+}
+
+.fixedd {
+
+  position: sticky;
+  align-content: center;
+}
+.fixeddd {
+
+  position: sticky;
+}
+.fixedddd {
+
+  position: sticky;
+}
+.fixeddddd {
+
+  position: sticky;
+}
