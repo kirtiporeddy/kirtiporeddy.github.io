@@ -1,47 +1,9 @@
-@font-face {
-    font-family: '5yearsoldfont';
-    src: url('fonts/5yearsoldfont.woff2') format('woff2'),
-        url('fonts/5yearsoldfont.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+body
+{
+  background-color: #DFDFD8;
 }
 
-
-.wrapper {
-  background-color: red;
-  color: lightgreen;
-  text-align: center;
-  padding-top: 60px;
-
-}
-
-.entries {
-  background-color: orange;
-}
-
-.entry {
-  padding: 15px;
-
-}
-
-.heading {
-  font-family: "helvetica";
-}
-
-body { 
-   font-size: 40px;
-
-    }
-
-
-.subheading {
-  font-family: "5yearsoldfont";
-  font-size: 20px;
-  padding-bottom: 30px;
-}
-
-.entries {
-  font-family: "courier";
-  font-size: 25px;
+.gif 
+{
+  align-content: center;
 }

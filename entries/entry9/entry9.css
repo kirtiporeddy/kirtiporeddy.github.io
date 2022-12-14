@@ -1,0 +1,85 @@
+.header{
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+
+
+
+}
+
+body{
+	background-color: lightyellow;
+}
+
+
+.buttons{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+}
+
+button{
+	background: none;
+	border: none;
+	flex: 30%;
+	max-width: 40%;
+}
+
+button:active{
+	cursor: pointer;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+#one{
+	width: 60%;
+	margin-top: 0vh;
+}
+
+#one:hover {
+	width: 90%;
+}
+#two{
+	width: 60%;
+	margin-top: -8vh;
+}
+#two:hover {
+	width: 82%;
+}
+#three{
+	width: 60%;
+	margin-top: -8vh;
+
+	
+}
+
+#three:hover {
+	width: 95%;
+}
+#four{
+	width: 60%;
+	position: relative;
+	top: 10vh;
+	right: -2vh;
+	
+
+}
+#four:hover {
+	width: 80%;
+}
+#six{
+	position: relative;
+	top: 10vh;
+	right: -2vh;
+	width: 60%;
+
+}
+#six:hover {
+	width: 80%;
+}

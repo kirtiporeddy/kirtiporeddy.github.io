@@ -1,0 +1,48 @@
+
+body {
+  background-color: black;
+  color:  white;
+  font-family: arial;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.blob {
+      position: absolute;
+      width: 240px;
+      height: 207px;
+      border-radius: 50%;
+
+  }    
+     
+
+ h1 {
+ 	font-display: helvetica;
+ 	font-family: helvetica;
+ 	font-size: 500;
+ 	size: 500;
+ 	justify-content: center;
+ 	align-content: center;
+ 	text-align: center;
+ 	}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
